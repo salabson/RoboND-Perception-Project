@@ -22,7 +22,7 @@
 	<!--PR2 cloud_transformer node-->
 	<node name="pr2_cloud_transformer" pkg="pr2_robot" type="pr2_cloud_transformer"
     respawn="false" output="screen">
-    <param name="demo" type="bool" value="true"/>
+    <param name="demo" type="bool" value="false"/>
   </node>
 
 </launch>
